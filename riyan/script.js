@@ -22,7 +22,6 @@ window.addEventListener("scroll", () => {
 
         if(link.getAttribute("href") === "#" + current)
             { link.classList.add("active"); }
-
     });
 
 });

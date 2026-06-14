@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ahmad Pratama Johari</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f7f8fb;
+            color: #172033;
+        }
+
+        .navbar {
+            border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #e0f2fe 0%, #f0fdf4 52%, #fff7ed 100%);
+            padding: 72px 0 44px;
+        }
+
+        .hero-photo {
+        width: min(100%, 320px);
+        border: 8px solid #ffffff;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+
+        }
+
+        .section-title {
+            border-left: 5px solid #2563eb;
+            padding-left: 14px;
+            margin-bottom: 22px;
+            font-weight: bold;
+        }
+
+        .content-card {
+            background: #ffffff;
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            border-radius: 8px;
+            box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06);
+        }
+
+        .gallery-img {
+            aspect-ratio: 16 / 9;
+            background: #ffffff;
+            border: 1px solid rgba(15, 23, 42, 0.08);
+            border-radius: 8px;
+            object-fit: cover;
+            padding: 6px;
+            width: 15%;
+        }
+
+        .table thead th {
+            background: #0f172a;
+            color: #ffffff;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        @media (max-width: 767px) {
+            .hero {
+                padding-top: 42px;
+            }
+            .hero-photo {
+                max-width: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero" id="beranda">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7">
+                    <p class="text-uppercase fw-bold text-primary mb-2">
+                        Teknisi Jaringan
+                    </p>
+                    <h1 class="display-5 fw-bold mb-3">
+                        Ahmad Pratama Johari
+                    </h1>
+                    <p class="lead mb-4">
+                        Mahasiswa yang memiliki minat besar di bidang Teknologi Informasi,
+                        khususnya jaringan komputer, sistem keamanan, dan administrasi server.
+                    </p>
+                    <div class="mb-2">
+                        <!-- Menambahkan id="contactButton" agar terhubung ke JS kamu -->
+                        <button class="btn btn-primary me-2" id="contactButton">
+                            Hubungi Saya
+                        </button>
+                        
+                        <a class="btn btn-outline-dark" href="../index.html">
+                             Kembali ke CV Kelompok
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="assets/ahmad.jpg.jpeg" class="img-fluid hero-photo rounded-4 w-75" alt="Foto Ahmad Pratama Johari">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-3">
+        <!-- Deskripsi Diri -->
+        <section class="container py-5" id="profil">
+            <h2 class="section-title">Deskripsi Diri</h2>
+            <div class="content-card p-4">
+                <p>
+                    Saya adalah mahasiswa yang memiliki minat besar di bidang Teknologi Informasi,
+                    khususnya jaringan komputer, sistem keamanan, dan administrasi server.
+                    Saat ini saya aktif mempelajari konfigurasi perangkat jaringan seperti
+                    MikroTik dan FortiGate, manajemen server Linux, VPN, routing,
+                    serta dasar-dasar keamanan siber untuk meningkatkan kemampuan teknis
+                    di dunia infrastruktur IT.
+                </p>
+                <p class="mb-0">
+                    Tujuan saya adalah mengembangkan karier sebagai Teknisi Jaringan,
+                    Network Engineer, atau System Administrator dengan terus meningkatkan
+                    kompetensi melalui praktik langsung, sertifikasi, dan proyek-proyek yang relevan.
+                    Saya percaya bahwa konsistensi dalam belajar, dokumentasi yang baik,
+                    kemampuan problem solving, dan kemauan untuk terus berkembang merupakan
+                    kunci untuk mencapai profesionalisme di bidang teknologi informasi.
+                </p>
+            </div>
+        </section>
+
+        <!-- Data Pribadi dan Pendidikan -->
+        <section class="container py-4" id="keahlian">
+            <div class="row g-4">
+                <!-- Data Pribadi -->
+                <div class="col-lg-6">
+                    <h2 class="section-title">Data Pribadi</h2>
+                    <div class="table-responsive content-card p-3">
+                        <table class="table table-bordered align-middle mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Keterangan</th>
+                                    <th>Informasi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Nama</strong></td>
+                                    <td>Ahmad Pratama Johari</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Minat Karier</strong></td>
+                                    <td>Teknisi Jaringan</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Lokasi</strong></td>
+                                    <td>Indonesia</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Email</strong></td>
+                                    <td>
+                                        <a href="mailto:ahmaddpratamajohari@gmail.com" class="text-decoration-none">
+                                            ahmaddpratamajohari@gmail.com
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Riwayat Pendidikan -->
+                <div class="col-lg-6">
+                    <h2 class="section-title">Riwayat Pendidikan</h2>
+                    <div class="table-responsive content-card p-3">
+                        <table class="table table-striped table-bordered align-middle mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Tahun</th>
+                                    <th>Pendidikan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2022 - 205</td>
+                                    <td>SMK Islam Malahayati - Teknik Komputer dan Jaringan</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Belajar -->
+        <section class="container py-5">
+            <h2 class="section-title">Target Belajar</h2>
+            <div class="content-card p-4">
+                <ol class="mb-0">
+                    <li class="mb-2">Mendalami administrasi jaringan.</li>
+                    <li class="mb-2">Meningkatkan kemampuan konfigurasi MikroTik dan FortiGate.</li>
+                    <li class="mb-2">Mempelajari keamanan jaringan dan VPN.</li>
+                    <li class="mb-0">Mengambil sertifikasi jaringan.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Minat dan Keahlian -->
+        <section class="container py-4" id="pengalaman">
+            <h2 class="section-title">Minat dan Keahlian</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="content-card p-3 h-100">
+                        <img src="assets/server.jpg" class="gallery-img mb-3" alt="Network Engineering">
+                        <h3 class="h5">Network Engineering</h3>
+                        <p class="text-muted small mb-0">
+                            Mempelajari konfigurasi jaringan, routing, switching,
+                            VPN, dan troubleshooting menggunakan MikroTik dan FortiGate.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content-card p-3 h-100">
+                        <img src="assets/network.jpg" class="gallery-img mb-3" alt="Server Administration">
+                        <h3 class="h5">Server Administration</h3>
+                        <p class="text-muted small mb-0">
+                            Mengelola server Linux, monitoring sistem,
+                            dan konfigurasi layanan jaringan.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content-card p-3 h-100">
+                        <img src="assets/infra.jpg" class="gallery-img mb-3" alt="Cyber Security">
+                        <h3 class="h5">Cyber Security</h3>
+                        <p class="text-muted small mb-0">
+                            Mempelajari keamanan jaringan, firewall,
+                            VPN, dan perlindungan infrastruktur IT.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak (Ditambahkan id="contactMessage" & d-none default tersembunyi sesuai logika JS kamu) -->
+        <section class="container py-5 d-none" id="contactMessage">
+            <h2 class="section-title">Kontak Saya</h2>
+            <div class="content-card p-4">
+                <ul class="mb-3">
+                    <li><a href="#profil" class="text-decoration-none">Profil</a></li>
+                    <li><a href="#keahlian" class="text-decoration-none">Data Pribadi</a></li>
+                    <li><a href="mailto:ahmaddpratamajohari@gmail.com" class="text-decoration-none">Email Langsung</a></li>
+                </ul>
+                <p class="mb-0 text-muted">
+                    Terbuka untuk belajar, berdiskusi, dan mengembangkan kemampuan di bidang jaringan komputer.
+                </p>
+            </div>
+        </section>
+    </main>
+
+   
+    <footer class="py-4 text-center">
+        <p class="mb-0">
+            &copy; <span id="currentYear"></span> Ahmad Pratama Johari. Website CV.
+        </p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script>
+        const yearElement = document.querySelector("#currentYear");
+        const contactButton = document.querySelector("#contactButton");
+        const contactMessage = document.querySelector("#contactMessage");
+
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
+        }
+
+        if (contactButton && contactMessage) {
+            contactButton.addEventListener("click", () => {
+                contactMessage.classList.toggle("d-none");
+                // Otomatis scroll halus ke section kontak saat muncul
+                if(!contactMessage.classList.contains("d-none")) {
+                    contactMessage.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
+    </script>   
+</body>
+</html>
